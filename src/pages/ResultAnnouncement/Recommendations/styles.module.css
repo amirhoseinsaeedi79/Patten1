@@ -1,0 +1,47 @@
+.container {
+  @apply w-full bg-white text-sm rounded-lg;
+}
+
+.contentTable {
+  @apply relative justify-center border-2 col-span-1 bg-white my-2 p-2 rounded-lg overflow-x-auto;
+}
+
+.titlePage {
+  @apply font-bold my-2;
+}
+
+.table {
+  @apply md:flex-col xs:flex-col mb-4 border w-full min-w-max overflow-scroll bg-ownGray-200 table-auto;
+}
+
+.tableHeader {
+  @apply bg-ownPurple-500 rounded-lg text-sm text-white;
+}
+
+.tableHeaderFirstItem {
+  @apply border-2 border-white p-2 rounded-tr-lg;
+}
+
+.tableHeaderItems {
+  @apply border-2 border-white p-2;
+}
+
+.tableHeaderItemLast {
+  @apply border-2 border-white p-2 rounded-tl-lg;
+}
+
+.tableRowBody {
+  @apply text-right;
+}
+
+.tableBodyItem {
+  @apply border-2 border-white text-center p-3;
+}
+
+.paginationContent {
+  @apply flex mr-3 items-center justify-center;
+}
+
+.numberPaginationContent {
+  @apply bg-ownGray-500 mx-5 px-3 py-1.5 rounded-md text-2xl text-white;
+}

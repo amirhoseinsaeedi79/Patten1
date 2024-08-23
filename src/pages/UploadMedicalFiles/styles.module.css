@@ -1,0 +1,3 @@
+.errorMessage {
+  @apply text-center text-ownRed-400;
+}

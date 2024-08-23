@@ -1,0 +1,15 @@
+.content {
+  @apply flex flex-col md:items-center justify-center gap-2;
+}
+.content .field {
+  @apply flex gap-2 items-center justify-center px-8 py-3 rounded-lg bg-ownPurple-500 font-semibold text-sm leading-5 text-center text-white hover:bg-ownPurple-700 duration-300;
+}
+.content .disabled {
+  @apply opacity-10;
+}
+.content .educationalContentWrapper {
+  @apply mb-2 mt-4 w-full;
+}
+.content .educationalContentWrapper .educationalContentButton {
+  @apply flex w-full justify-center items-center gap-2 bg-ownGray-100 rounded-md p-2 hover:bg-ownGray-200;
+}/*# sourceMappingURL=styles.module.css.map */

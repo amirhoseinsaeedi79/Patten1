@@ -1,0 +1,11 @@
+.successToast {
+  @apply text-white text-center bg-ownGreen-200 font-YekanBakh font-bold text-lg;
+}
+
+.errorToast {
+  @apply text-white text-center bg-ownRed-400 font-YekanBakh font-bold text-lg;
+}
+
+.warningToast {
+  @apply text-white text-end bg-orange-600 font-YekanBakh font-semibold text-sm;
+}/*# sourceMappingURL=styles.module.css.map */

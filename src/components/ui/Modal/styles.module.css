@@ -1,0 +1,24 @@
+.modalOverlay {
+  @apply fixed top-0 left-0 w-screen h-screen bg-ownGray-100 bg-opacity-50 flex items-center justify-center;
+  z-index: 8;
+}
+.modalOverlay .modal {
+  direction: ltr;
+  @apply text-ownGray-900 min-h-max max-lg:h-3/4 max-lg:max-w-full max-md:w-full max-md:h-full items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-4 rounded-3xl shadow-md overflow-y-auto md:min-w-[25%];
+  z-index: 10; /* Ensure modal is on top */
+}
+.modalOverlay .modal .modalHeader {
+  direction: rtl;
+  @apply flex justify-end flex-row-reverse;
+}
+.modalOverlay .modal .modalHeader .closeButton {
+  @apply rounded-lg bg-ownGray-100 text-xl hover:bg-ownGray-200 cursor-pointer;
+}
+.modalOverlay .modal .modalHeader .closeButton .closeIcon {
+  @apply p-2 rounded-xl;
+}
+.modalOverlay .modal .modalContent {
+  direction: rtl;
+  @apply max-md:min-w-min max-md:min-h-screen text-ownGray-900 mx-2 mt-2 font-bold xs:text-sm mb-2 p-2;
+  /* Add styles for modal content if needed */
+}/*# sourceMappingURL=styles.module.css.map */

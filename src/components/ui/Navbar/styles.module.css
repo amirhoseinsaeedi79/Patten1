@@ -1,0 +1,73 @@
+.contentMenu {
+  @apply lg:justify-start gap-4 items-center w-full p-4 md:bg-white font-bold hidden lg:flex;
+}
+
+.contentMenu .home {
+  @apply flex gap-2 rounded-md py-2 px-4 bg-ownGray-100 hover:bg-ownGray-200 duration-200;
+}
+
+.contentMenu .desktopMenu {
+  @apply hidden md:flex gap-2;
+}
+
+.contentMenu .mobileMenu {
+  @apply md:hidden w-full relative flex gap-2 rounded-md py-2 px-4 bg-ownGray-100 hover:bg-ownGray-200 duration-200;
+}
+
+.contentMenu .mobileMenuButton {
+  @apply md:hidden;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.contentMenu .mobileDropdown {
+  @apply md:hidden absolute h-fit w-full min-w-max left-14 px-2 py-2 flex flex-col gap-2 items-center bg-white border border-ownGray-100 rounded-md;
+  z-index: 10;
+}
+
+.contentMenu .menuItem {
+  @apply md:flex gap-2 cursor-pointer hover:bg-ownPurple-500 hover:text-white hover:rounded-lg p-2 duration-100;
+}
+
+.contentMenu .active {
+  @apply md:flex gap-2 border-b-4 border-ownPurple-500 text-ownGray-600 cursor-pointer hover:bg-ownPurple-500 hover:text-white hover:rounded-lg p-2 duration-100;
+}
+
+// hamburger menu
+
+.contentHamburgerMenu {
+  @apply flex-col items-start lg:hidden bg-gray-200 p-4 border-2 border-gray-400 fixed top-0 left-0 h-screen w-[300px] gap-3;
+}
+
+.contentHamburgerMenu .home {
+  @apply flex gap-2 rounded-md py-2 px-4 bg-white hover:bg-ownGray-200 duration-200;
+}
+
+.contentHamburgerMenu .desktopMenu {
+  @apply hidden md:flex gap-2;
+}
+
+.contentHamburgerMenu .mobileMenu {
+  @apply md:hidden w-full relative flex gap-2 rounded-md py-2 px-4 bg-ownGray-100 hover:bg-ownGray-200 duration-200;
+}
+
+.contentHamburgerMenu .mobileMenuButton {
+  @apply md:hidden;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.contentHamburgerMenu .mobileDropdown {
+  @apply md:hidden absolute h-fit w-full min-w-max left-14 px-2 py-2 flex flex-col gap-2 items-center bg-white border border-ownGray-100 rounded-md;
+  z-index: 10;
+}
+
+.contentHamburgerMenu .menuItem {
+  @apply md:flex gap-2 cursor-pointer hover:bg-ownPurple-500 hover:text-white hover:rounded-lg p-2 duration-100;
+}
+
+.contentHamburgerMenu .active {
+  @apply md:flex gap-2 border-b-4 border-ownPurple-500 text-ownGray-600 cursor-pointer hover:bg-ownPurple-500 hover:text-white hover:rounded-lg p-2 duration-100;
+}

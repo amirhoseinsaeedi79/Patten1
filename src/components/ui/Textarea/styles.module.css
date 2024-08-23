@@ -1,0 +1,15 @@
+.content {
+  @apply w-full grid grid-cols-1;
+}
+
+.label {
+  @apply text-xs leading-5 mb-1 text-ownGray-600;
+}
+
+.field {
+  @apply flex-1 h-auto border-2 border-ownGray-200 hover:border-ownGray-300 focus:border-ownGray-300 bg-white rounded-lg w-full text-sm focus:ring-1 focus:ring-ownGray-200;
+}
+
+.fieldError {
+  @apply border-ownRed-400;
+}

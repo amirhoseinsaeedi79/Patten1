@@ -1,0 +1,17 @@
+export const text = {
+  psychology: "روانشناسی",
+  hearthExamination: "معاینات تخصصی قلب",
+  ophthalmology: "چشم پزشکی",
+  ent: "گوش و حلق و بینی",
+  medicineTest: "آزمایشات طبی",
+  imaging: "تصویربرداری",
+  spirometer: "اسپیرومتری",
+  dentistry: "دندانپزشکی",
+  sportsMedicine: "طب ورزشی",
+  papSmear: "پاپ اسمیر",
+  foodAndDiet: "تغذیه و رژیم غذایی",
+  urologySpecialist: "متخصص اورولوژی",
+  pulmonologist: "متخصص ریه",
+  circulatorySpecialist: "متخصص گوارش",
+  internist: "متخصص داخلی",
+};
